@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Alert_2
 Bundle-SymbolicName: Alert_2; singleton:=true
-Bundle-Version: 1.0.1
+Bundle-Version: 1.0.2
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
 SAP-RuntimeProfile: iflmap
