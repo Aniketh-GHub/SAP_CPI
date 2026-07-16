@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><parameters><parameter>
+      <key/>
+      <name>Start Timer</name>
+      <type>custom:schedule</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>false</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Service Resource Events URL</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>CI Tenant Base URL</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Service Technical Client Name</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>CI Request Timeout (in min)</name>
+      <type>xsd:integer</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>CI Technical Client Name</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Source Event ID Strategy (Optional)</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Enable Certificate Authentication</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Enable Log</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Service Request Timeout (in min)</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>Private Key Alias</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><parameter>
+      <key/>
+      <name>CI Authentication Type</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata>
+         <isCombobox>true</isCombobox>
+      </additionalMetadata>
+   </parameter><parameter>
+      <key/>
+      <name>Keystore Alias</name>
+      <type>xsd:string</type>
+      <isRequired>false</isRequired>
+      <constraint/>
+      <description/>
+      <additionalMetadata/>
+   </parameter><param_references><reference attribute_category="MPL.Receiver.System" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.15.1/attrId::address" attribute_uilabel="Address" param_key="CI Tenant Base URL"/><reference attribute_category="MPL" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.15.1/attrId::odataCertAuthPrivateKeyAlias" attribute_uilabel="Private Key Alias" param_key="Private Key Alias"/><reference attribute_category="MPL" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.15.1/attrId::receiveTimeOut" attribute_uilabel="Timeout (in min)" param_key="CI Request Timeout (in min)"/><reference attribute_category="MPL.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.15.1/attrId::authenticationMethod" attribute_uilabel="Authentication" param_key="CI Authentication Type"/><reference attribute_category="MPL.Receiver.Auth" attribute_id="ctype::AdapterVariant/cname::HCIOData/tp::HTTP/mp::OData V2/direction::Receiver/version::1.15.1/attrId::alias" attribute_uilabel="Credential Name" param_key="CI Technical Client Name"/></param_references></parameters>

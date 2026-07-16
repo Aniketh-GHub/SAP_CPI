@@ -1,0 +1,15 @@
+#
+#Thu Jul 16 06:40:42 UTC 2026
+CI\ Authentication\ Type=OAuth2ClientCredentials
+CI\ Request\ Timeout\ (in\ min)=1
+CI\ Technical\ Client\ Name=CI_OAUTH_CLNT
+CI\ Tenant\ Base\ URL=https\://f1331820trial.it-cpitrial03.cfapps.ap21.hana.ondemand.com
+Enable\ Certificate\ Authentication=false
+Enable\ Log=false
+Keystore\ Alias=CI_KEYSTORE
+Private\ Key\ Alias=
+Service\ Request\ Timeout\ (in\ min)=1
+Service\ Resource\ Events\ URL=https\://clm-sl-ans-live-ans-service-api.cfapps.ap21.hana.ondemand.com/cf/producer/v1/resource-events
+Service\ Technical\ Client\ Name=ANS_OAUTH_CLNT
+Source\ Event\ ID\ Strategy\ (Optional)=
+Start\ Timer=<row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>dateType</cell><cell>DAILY</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>toInterval</cell><cell>24</cell></row><row><cell>fromInterval</cell><cell>0</cell></row><row><cell>OnEverySecond</cell><cell>30</cell></row><row><cell>timeType</cell><cell>TIME_SECOND_INTERVAL</cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>throwExceptionOnExpiry</cell><cell>true</cell></row><row><cell>second</cell><cell>*</cell></row><row><cell>minute</cell><cell>*</cell></row><row><cell>hour</cell><cell>*</cell></row><row><cell>day_of_month</cell><cell>?</cell></row><row><cell>month</cell><cell>*</cell></row><row><cell>dayOfWeek</cell><cell>*</cell></row><row><cell>year</cell><cell>*</cell></row><row><cell>startAt</cell><cell></cell></row><row><cell>endAt</cell><cell></cell></row><row><cell>attributeBehaviour</cell><cell>isRunOnceRequired,isScheduleOnDayRequired,isScheduleRecurRequired</cell></row><row><cell>triggerType</cell><cell>cron</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>0/30+*+0-23+?+*+*+*&amp;trigger.timeZone\=Etc/GMT</cell></row>

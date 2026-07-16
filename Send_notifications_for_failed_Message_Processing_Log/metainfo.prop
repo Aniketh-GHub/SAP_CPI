@@ -1,0 +1,6 @@
+#Store metainfo properties
+#Thu Jul 16 06:40:42 UTC 2026
+SAP-MarkedSAP2SAP=SAP_TO_SAP_INTEGRATION
+description=Pulls failed messages from the Message Processing Logs API, groups them by their integration flow ID, and send notifications to SAP Alert Notification service for SAP BTP.
+source=SAPCloudPlatformAlertNotification
+target=SAPCloudPlatformIntegration
